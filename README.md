@@ -3,7 +3,7 @@ Injector provides a lightweight framework for binding and injecting services at 
 
 A "service" is composed of an API and an implementation of that API. There can be multiple implementations for a given API.
 
-# Example
+## Example
 If you have an API
 ```objc
 // HelloService.h
