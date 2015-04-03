@@ -37,9 +37,10 @@ Injector lets you bind the implementation to the service injector.
 NSR_BIND(HelloNSLogger, HelloService, [NSRInjectorOptions lazySingleton]);
 ```
 
-and then at runtime, a client of ```HelloService``` can obtain an instance of ```HelloService``` via
+And then, a client of ```HelloService``` can obtain an instance of ```HelloService``` via
 ```objc
 id<HelloService> helloService = [[NSRInjector sharedInstance] inject:@protocol(HelloService)];
 // OR
 id<HelloService> helloService = NSR_INJECT(HelloService);
 ```
+
