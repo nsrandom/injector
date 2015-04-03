@@ -1,0 +1,10 @@
+tmp/
+
+Podfile.lock
+Pods/
+Releases/
+
+Injector.xcodeproj/project.xcworkspace/
+Injector.xcodeproj/xcuserdata/
+Injector.xcworkspace/
+
