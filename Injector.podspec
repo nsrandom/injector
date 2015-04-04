@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT"
-  s.license      = { :type => "MIT", :file => "https://github.com/nsrandom/injector/blob/master/LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
